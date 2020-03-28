@@ -17,10 +17,10 @@ setuptools.setup(
     url="https://github.com/fastai/tf-fit",
     packages=setuptools.find_packages(),
     install_requires=['fastai==1.0.39', 'tensorflow'],
-    python_requires  = '==3.6.*' or '==3.7.*',
+    python_requires  = '==3.7.*',
     classifiers=[
         "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: Apache Software License",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
     ],
 )
